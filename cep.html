@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CEP</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <form>
+    <label for="CEP">CEP:
+      <input name="CEP" id="CEP" required pattern="\d{5}-?\d{3}"
+        onchange="javascript:console.log('change')" oninput="javascript:console.log('INPUT')" />
+    </label>
+    <input type="submit" value="Enviar" formnovalidate >
+  </form>
+</body>
+</html>
