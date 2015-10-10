@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Seletores HTML5</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <nav>
+    <ul id="menu-list" class="menu">
+      <li class="item">Home</li>
+      <li class="item">Clients</li>
+      <li class="item">Products</li>
+      <li class="item">Contact Us</li>
+    </ul>
+  </nav>
+  <script>
+  var itens = document.getElementsByClassName('item');
+  console.log(itens);
+
+  function adicionaItem(valor) {
+    document.getElementById('menu-list').innerHTML += '<li>' + valor + '</li>';
+  }
+  
+  adicionaItem('Cases');
+  </script>
+</body>
+</html>
