@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Form</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <form>
+    <label for="tel">Tel</label>
+    <input type="tel" id="tel" value="99699341" required />
+    <label for="search">Search</label>
+    <input type="search" id="search" required />
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Busque aqui" required />
+    <label for="url">URL</label>
+    <input type="url" id="url" pattern="https?://.+" required autofocus />
+    <label for="datetime">DateTime</label>
+    <input type="datetime" id="datetime" />
+    <label for="date">Date</label>
+    <input type="date" id="date" />
+    <label for="month">Month</label>
+    <input type="month" id="month" />
+    <label for="week">Week</label>
+    <input type="week" id="week"/>
+    <label for="time">Time</label>
+    <input type="time" id="time" />
+    <label for="datetime-local">Datetime Local</label>
+    <input type="datetime-local" id="datetime-local" />
+    <label for="number">Number</label>
+    <input type="number" id="number" name="meu_numero" value="12.4" step="0.2" min="0" max="20" />
+    <label for="range">Range</label>
+    <input type="range" id="range" name="range" value="12.4" step="0.2" min="0" max="20" />
+    <label for="color">Color</label>
+    <input type="color" id="color" />
+    <label for="textarea">Textarea</label>
+    <textarea id="textarea">Meu texto</textarea>
+    <br/>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Cancelar">
+  </form>
+</body>
+</html>
