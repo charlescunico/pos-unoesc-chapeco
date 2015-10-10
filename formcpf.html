@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Form CPF</title>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="js/cpf.js"></script>
+  <script type="text/javascript">
+    function vCPF(input) {
+      var mensagem = "";
+      if (!validaCPF(input.value)) {
+        mensagem = 'CPF inválido';
+      }
+      input.setCustomValidity(mensagem);
+      //input.setCustomValidity(validaCPF(i.value) ? "" : ".");
+    }
+  </script>
+</head>
+<body>
+  <form>
+    <label for="CPF">CPF:
+      <input name="CPF" id="CPF" oninput="vCPF(this)" />
+    </label>
+    <input type="submit" value="Enviar" />
+  </form>
+</body>
+</html>
