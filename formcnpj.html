@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Form CNPJ</title>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="js/cnpj.js"></script>
+  <script type="text/javascript">
+    function vCNPJ(input) {
+      var mensagem = "";
+      if (!validarCNPJ(input.value)) {
+        mensagem = 'CNPJ inválido';
+      }
+      input.setCustomValidity(mensagem);
+      //input.setCustomValidity(validaCPF(i.value) ? "" : ".");
+    }
+  </script>
+</head>
+<body>
+  <form>
+    <label for="CNPJ">CNPJ:
+      <input name="CNPJ" id="CNPJ" oninput="vCNPJ(this)" />
+    </label>
+    <input type="submit" value="Enviar" />
+  </form>
+</body>
+</html>
