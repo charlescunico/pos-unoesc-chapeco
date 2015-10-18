@@ -1,8 +1,8 @@
 #### Unoesc Chapecó
-#### Pós-graduação em Desenvolvimento Web, Cloud e dispositivos móveis - WebMob
-#### Disciplina: HTML5+CSS3
+#### Pós-Graduação em Desenvolvimento Web, Cloud e Dispositivos Móveis - WebMob
+#### Disciplina: Desenvolvimento com HTML5 e CSS3
 #### Professor: Jean Carlo Nascimento
-#### Acadêmico(a): Charles Busatta Cunico
+#### Acadêmico: Charles Busatta Cunico {charlesbc@unochapeco.edu.br}
 ### Artigo de revisão de CSS3
 ##### Funcionalidade: 
 ##### O que é?
@@ -11,8 +11,8 @@
 
 ##### Como usar:
 ```css
-seletor { :
-  ;
+seletor {
+   : ;
 }
 ```
 ##### Exemplo de uso
@@ -20,9 +20,8 @@ seletor { :
 
 ```css
 seletor {
-  : ;
+   : ;
 }
-
 ```
 ### Referencia:
 [http://www.maujor.com/](http://www.maujor.com/)
