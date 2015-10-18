@@ -2,7 +2,7 @@
 #### Pós-Graduação em Desenvolvimento Web, Cloud e Dispositivos Móveis - WebMob
 #### Disciplina: Desenvolvimento com HTML5 e CSS3
 #### Professor: Jean Carlo Nascimento
-#### Acadêmico(a): Charles Busatta Cunico {charlesbc@unochapeco.edu.br}
+#### Acadêmico: Charles Busatta Cunico {charlesbc@unochapeco.edu.br}
 ## Atomic Design
 #####Resumo:
 
