@@ -34,7 +34,7 @@ Uma molécula é o simples grupo de componentes isolados (átomos) funcionando p
 #####2.3. Organismos:
 Da mesma forma que uma molécula é composta pelo agrupamento de átomos, um organismo é composto pelo agrupamento de moléculas. Também pode conter átomos individuais em sua composição. São componentes relativamente complexos e formam as seções da interface, como sidebar, header, footer, etc.
 
-Mas diferente do comportamento de uma molécula, que possui apenas um propósito, um organismo pode possuir vários propósitos funcionando paralelamente. Como por exemplo um header pode conter um logotipo, um menu principal e um campo de busca.
+Mas diferente do comportamento de uma molécula, que possui apenas um propósito, um organismo pode possuir vários propósitos funcionando paralelamente. Como por exemplo, um header pode conter um logotipo, um menu principal e um campo de busca.
 
 A construção de organismos nos ajuda a manter componentes autônomos, portáteis e reutilizáveis.
 
@@ -49,26 +49,33 @@ Página é a evolução da etapa template, onde os componentes são preenchidos 
 As páginas são essenciais para validar a efetividade do sistema de design. Com esta forma final é possível revisar moléculas, organismos e templates para que sejam ajustados afim de melhor atender as necessidades do conteúdo.
 
 ####3. Para que usar
-Atomic Design é utilizado para manter uma organização da interface, permitindo trabalhar de forma modular.  É ideal para sistemas com layout responsivo, criando desde o início os componentes com essa característica.
+Atomic Design é utilizado para manter uma organização da interface, permitindo trabalhar de forma modular.  É ideal para sistemas com layout responsivo, e é considerada uma boa prática criar desde o início os componentes com essa característica.
 
-O agrupamento dos elementos montando guias de estilo proporciona maior agilidade ao projeto, permitindo facilmente visualizar o layout utilizando os componentes criados.
+A composição de guias de estilo a partir do agrupamento dos elementos proporciona maior agilidade ao projeto, permitindo facilmente visualizar o layout com os componentes criados.
+
+Também reduz a reescrita e a quantidade de códigos duplicados, ocasionando na redução do tempo de desenvolvimento.
 
 
 ####4. Onde usar?
-O uso de Atomic Design não é aconselhado para páginas e hot-sites. Seu potencial é melhor explorado quando aplicado em sistemas, possibilitando a criação de uma interface para um layout mais sólido e modular.
+O uso de Atomic Design não é aconselhado para páginas e hotsites. Seu potencial é melhor explorado quando aplicado em sistemas, possibilitando a criação de uma interface para um layout mais sólido e modular.
 
-Também apresenta grandes vantagens para ser utilizado em sistemas complexos, desenvolvendo componentes reutilizáveis e facilitando o padrão visual e a manutenção do código.
+Também apresenta grandes vantagens para ser utilizado em sistemas complexos ou que exigem rápida entrega, desenvolvendo componentes reutilizáveis, facilitando o padrão visual e a manutenção do código.
 
 
 ####5. Exemplos:
 #####5.1 Átomos
 Representado por tags básicas HTML
+
 ![Átomo](artigo-atomic-design/atomo.png)
+
 Código HTML de um átomo input :
+
 ```html
 <input type="text" class="atom-input" name="name" />
 ```
+
 CSS do átomo input:
+
 ```css
 .atom-input {
   width: 300px;
@@ -86,8 +93,12 @@ CSS do átomo input:
 ```
 
 #####5.2. Moléculas:
+
+
 ![Molécula](artigo-atomic-design/molecula.jpg)
+
 Código HTML de uma molécula form:
+
 ```html
 <form class="molecule-form" actiton="/beers">
   <div class="field-container">
@@ -112,7 +123,9 @@ Código HTML de uma molécula form:
   </div>
 </form>
 ```
+
 CSS da molécula form:
+
 ```css
 .molecule-form {
   width: 610px;
@@ -135,14 +148,17 @@ CSS da molécula form:
 
 #####5.3. Organismos:
 Exemplo de um organismo header:
+
 ![Organismo](artigo-atomic-design/organismo.jpg)
 
 #####5.4. Templates:
 Exemplo de um template para uma home:
+
 ![Template](artigo-atomic-design/modelo.png)
 
 #####5.5. Páginas:
 Exemplo de página com alguns conteúdos preenchidos:
+
 ![Página](artigo-atomic-design/pagina.png)
 
 
